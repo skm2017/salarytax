@@ -10,5 +10,9 @@ label {
 }
 
 #taxAmt {
-    color: red
+    color: #ff0000;
+}
+
+.link-title:hover {
+    text-decoration: none;
 }

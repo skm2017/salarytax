@@ -33,6 +33,7 @@ function calculateSalaryTax(e) {
     document.getElementById('salAmt').innerText = salary;
     document.getElementById('salType').innerText = salType;
     document.getElementById('taxAmt').innerText = parseInt(tax);
+    document.getElementById('salPayable').innerText = salary - tax;
 }
 
 function taxCalc(sal, amt2, amt10, amt20, tax2, tax10) {
