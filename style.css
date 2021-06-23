@@ -1,0 +1,14 @@
+body {
+    direction: rtl;
+    text-align: right;
+    width: 80%;
+    margin: 0 auto;
+}
+
+label {
+    vertical-align: middle;
+}
+
+#taxAmt {
+    color: red
+}
